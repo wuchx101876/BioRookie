@@ -4,7 +4,7 @@ Version: 1.0.0.0
 Authors@R: 
     person("BioRookie" ,"Wu",, "first.last@example.com", role = c("aut","cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Unified packaging of functions commonly used in bioinformatics analysis to improve analysis capabilities and save analysis time
+Description: Unified packaging of functions commonly used in bioinformatics analysis to improve analysis capabilities and save analysis time.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,3 +14,6 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     stringr
+Depends: 
+    R (>= 3.50)
+
