@@ -3,8 +3,8 @@
 
 
 
-#' Title 这是一个可以把counts值转换成TPM值或者FPKM值得函数
-#'
+#' Title 这是一个可以把counts值转换成TPM值或者FPKM值的函数
+#' @description 没啥好描述的
 #' @param exp_data 需要输入一个counts矩阵，行名是基因名，
 #' 列名是样本名，不知道啥样的可以看看示例数据head(tcga_TestData)
 #' @param method 目前就支持两种，将counts转成TPM或者FPKM，二选一
@@ -15,10 +15,10 @@
 #' @export
 #'
 #' @examples
+#' 1+1
 #'
 #'
-#'
-count_tpm_fpkm <- function(exp_data,method,genome = "hg19"){
+BR_count_tpm_fpkm <- function(exp_data,method,genome = "hg19"){
 
 
   if (genome == "hg19") {

@@ -1,6 +1,6 @@
 Package: BioRookie
 Title: Stores some useful functions for bioinformatics analysis
-Version: 1.0.0.0
+Version: 1.0.1.0
 Authors@R: 
     person("BioRookie" ,"Wu",, "first.last@example.com", role = c("aut","cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
