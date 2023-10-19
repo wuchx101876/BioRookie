@@ -1,8 +1,6 @@
 
 
 
-
-
 #' Title 这是一个可以把counts值转换成TPM值或者FPKM值的函数
 #' @description 没啥好描述的
 #' @param exp_data 需要输入一个counts矩阵，行名是基因名，
