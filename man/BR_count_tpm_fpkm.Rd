@@ -22,7 +22,7 @@ BR_count_tpm_fpkm(exp_data, method, genome = "hg19")
 没啥好描述的
 }
 \examples{
-1+1
+x <- c("alfa,bravo,charlie,delta")
 
 
 }

@@ -15,7 +15,7 @@
 #' @export
 #'
 #' @examples
-#' 1+1
+#' x <- c("alfa,bravo,charlie,delta")
 #'
 #'
 BR_count_tpm_fpkm <- function(exp_data,method,genome = "hg19"){
