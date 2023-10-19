@@ -4,5 +4,5 @@ A R package that stores some functions commonly used in bioinformatics analysis 
 ## install
 
 ```R
-devtools::install_github("XSLiuLab/TCfinder")
+devtools::install_github("wuchx101876/BioRookie")
 ```
