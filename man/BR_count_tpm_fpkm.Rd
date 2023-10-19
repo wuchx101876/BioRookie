@@ -24,5 +24,4 @@ BR_count_tpm_fpkm(exp_data, method, genome = "hg19")
 \examples{
 x <- c("alfa,bravo,charlie,delta")
 
-
 }

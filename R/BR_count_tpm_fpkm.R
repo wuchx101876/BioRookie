@@ -17,7 +17,9 @@
 #' @examples
 #' x <- c("alfa,bravo,charlie,delta")
 #'
+#' @importFrom dplyr %>% filter select
 #'
+
 BR_count_tpm_fpkm <- function(exp_data,method,genome = "hg19"){
 
 
@@ -66,7 +68,9 @@ BR_count_tpm_fpkm <- function(exp_data,method,genome = "hg19"){
   }
 
   result_value <- result_value %>% dplyr::select(-Length)
+
   return(result_value)
+
 }
 
 
